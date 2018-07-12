@@ -1,0 +1,8 @@
+{
+    "Description":{
+        "Language":"Rust",
+        "Extension":".rs",
+        "DefaultExecutablePath": "rust_worker",
+        "IsScriptRootRelative": true
+    }
+}

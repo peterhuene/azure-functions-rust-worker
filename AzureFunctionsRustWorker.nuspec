@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Functions.RustWorker</id>
+    <title>Microsoft Azure Functions Rust Worker</title>
+    <tags>rust azure-functions azure</tags>
+    <version>1.0.0-beta1</version>
+    <authors>Peter Huene</authors>
+    <owners>Peter Huene</owners>
+    <projectUrl>https://github.com/peterhuene/azure-functions-rust-worker</projectUrl>
+    <licenseUrl>https://github.com/peterhuene/azure-functions-rust-worker/blob/master/LICENSE</licenseUrl>
+    <iconUrl>https://raw.githubusercontent.com/Azure/azure-functions-cli/master/src/Azure.Functions.Cli/npm/assets/azure-functions-logo-color-raster.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Microsoft Azure Functions Rust Worker</description>
+    <copyright>Copyright (c) Peter Huene. All rights reserved.</copyright>
+    <contentFiles>
+      <files include="**/*" buildAction="None" copyToOutput="true" flatten="false"/>
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="worker.config.json" target="contentFiles/any/any/workers/rust" />
+  </files>
+</package>
